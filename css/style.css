@@ -2,11 +2,23 @@
     padding: 0;
     margin: 0;
     border: 0;
+    
 }
 
 body{
     background: #AAAAAA8F;
+
+    
 }
+body::-webkit-scrollbar{
+    width: 5px;
+    background: rgba(197, 12, 12, 0);  
+}
+
+body::-webkit-scrollbar-thumb{
+    border: 5px solid rgba(0, 0, 0, 0.959);
+    border-radius: 10px;
+    }
 
 p{
     color: #524c56;
@@ -62,7 +74,7 @@ header{
 header #logo img{
     margin: 10px;
     float: left;
-    width: 85px;
+    width: 95px;
 }
 
 /*Navigation*/
