@@ -61,9 +61,10 @@ img{
 
 #banner-wrapper{
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 0 5% 0;
+    margin: o auto;
+    padding: 0 0 10% 0;
 }
+mq
 
 header{
     width: 100%;
@@ -75,7 +76,7 @@ header{
 header #logo img{
     margin: 10px;
     float: left;
-    max-width: 20%;
+    max-width: 25%;
 }
 @media (min-width: 768px) {
     header #logo img{
