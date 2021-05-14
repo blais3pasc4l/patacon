@@ -71,10 +71,11 @@ header{
     top: 0;
     left: 0;
 }
+
 header #logo img{
     margin: 10px;
     float: left;
-    width: 95px;
+    max-width: 10%;
 }
 
 /*Navigation*/
