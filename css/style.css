@@ -75,9 +75,15 @@ header{
 header #logo img{
     margin: 10px;
     float: left;
-    max-width: 10%;
+    max-width: 20%;
 }
-
+@media (min-width: 768px) {
+    header #logo img{
+        margin: 10px;
+    float: left;
+    max-width: 90px;
+    }
+}
 /*Navigation*/
 nav{
     float: right;
