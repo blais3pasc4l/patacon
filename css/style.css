@@ -1,9 +1,11 @@
-
+html {
+    box-sizing: border-box;
+    min-height: 100%;
+}
 *{
     padding: 0;
     margin: 0;
     border: 0;
-    
 }
 
 body{
@@ -13,11 +15,11 @@ body{
 }
 body::-webkit-scrollbar{
     width: 5px;
-    background: rgb(28, 195, 207);
+    background: linear-gradient(#000105, #0b18a8);
 }
 
 body::-webkit-scrollbar-thumb{
-    border: 5px solid  rgba(0, 0, 0, 0); 
+    border: 5px solid  rgb(245, 245, 245); 
     border-radius: 10px;
 }
 
@@ -31,14 +33,31 @@ p{
     text-align: justify;
     text-indent: 2%;
 }
-h3{
-    font-size: 175%;
-    line-height: 155%;
-    font-weight: 500;
-    color: #524c56 ;
+.correo{
+    color: ghostwhite;
     text-align: center;
-    text-transform: uppercase;
+}
+/* aqui debe poner un media */
+h2{
+    padding: 2%;
+    text-align: center;
+    color: white;
+    font-size: 2.50rem;
+}
+h3{
+    font-size: 1.6rem;
+    line-height: 155%;
+    font-weight: normal;
+    color: #63a1b4 ;
+    text-align: center;
+    
     padding: 0;
+}
+.lerft-col-portafolio{
+    font-size: 2.50rem;
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
 }
 
 a{
@@ -67,7 +86,7 @@ img{
     margin: o auto;
     padding: 0 0 10% 0;
 }
-mq
+
 
 header{
     width: 100%;
@@ -122,18 +141,32 @@ nav ul li a{
     text-align: center;
 }
 .icon-wrap{
-    width: 120px;
-    height: 120px;
-    margin: 0 auto;
-    background-color: #6991ac;
-    border-radius: 60px;
-    margin-top: 6%;
+    padding-left: 10%;
+    padding-top: 10%;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;       
 }
 .icon-wrap i{
     text-align: center;
-    color: #fff;
     padding: 20%;
     font-size: 400%;
+    display: flex;
+    height: 70px;
+    width: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.wrap-p{
+    line-height: 2;
+    color: #524c56;
+    font-size: 150%;
+    line-height: 155%;
+    padding: 2%;
+    text-align: center;
+    text-indent: 2%;
 }
 
 .left-col {
@@ -142,6 +175,20 @@ nav ul li a{
     width: 60%;
     height: auto;
     padding: 1%;
+}
+.left-col_list a{
+    display: flex;
+    flex-direction: column;
+    margin-left: 45%;
+    margin-top:1%;
+    justify-content: space-around;
+    color: #63a1b4;
+    font-size: 140%;
+    line-height: normal;
+    
+}
+.left-col_list a:hover{
+    color: #f5f5f5;
 }
 .sidebar{
     float: right;
@@ -212,6 +259,7 @@ color: #f5f5f5;
     padding: 3%;
     color: #c3d7df;
 }
+
 
 .footer-second{
     border-top: 1px solid #aadcd2;
