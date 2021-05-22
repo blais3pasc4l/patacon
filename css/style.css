@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -6,19 +7,21 @@
 }
 
 body{
-    background: #AAAAAA8F;
-
-    
+    font-family: 'Krub', sans-serif;
+    background-image:   linear-gradient(#e66465, #9198e5);
+    min-height: 100%;    
 }
 body::-webkit-scrollbar{
     width: 5px;
-    background: rgba(197, 12, 12, 0);  
+    background: rgb(28, 195, 207);
 }
 
 body::-webkit-scrollbar-thumb{
-    border: 5px solid rgba(0, 0, 0, 0.959);
+    border: 5px solid  rgba(0, 0, 0, 0); 
     border-radius: 10px;
-    }
+}
+
+
 
 p{
     color: #524c56;
