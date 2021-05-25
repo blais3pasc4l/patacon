@@ -50,6 +50,8 @@ h3{
     font-weight: normal;
     color: #63a1b4 ;
     text-align: center;
+    padding: 10%;
+    border: 1 px solid tomato;
     
     padding: 0;
 }
@@ -147,7 +149,9 @@ nav ul li a{
     float: left;
     padding: 10px;
     text-align: center;
+
 }
+
 .icon-wrap{
     padding-left: 10%;
     padding-top: 10%;
@@ -155,6 +159,7 @@ nav ul li a{
     height: 180px;
     margin: 0 auto;       
 }
+
 .icon-wrap i{
     text-align: center;
     padding: 20%;
@@ -167,6 +172,29 @@ nav ul li a{
     background-color: #fff;
     border-radius: 50%;
 }
+@media (min-width: 768px) {
+    .icon-wrap{
+        padding-left: 0%;
+        padding-top: 0%;
+        width: 180px;
+        height: 180px;
+        margin: 0 auto;       
+    }
+    
+    .icon-wrap i{
+        text-align: center;
+        padding: 25%;
+        font-size: bold;
+        display: flex;
+        height: 70px;
+        width: 70px;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+}
+
 .wrap-p{
     line-height: 2;
     color: #524c56;
