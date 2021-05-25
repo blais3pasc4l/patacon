@@ -86,6 +86,13 @@ img{
     margin: o auto;
     padding: 0 0 10% 0;
 }
+@media (min-width: 768px) {
+    #banner-wrapper{
+        max-width: 1200px;
+        margin: o auto;
+        padding: 0 0 3% 0;
+    }
+}
 
 
 header{
@@ -115,7 +122,8 @@ nav{
 
 #menu-icon{
     display: none;
-    font-size: 50px;
+    font-size: 55px;
+    color: #ffff;
 }
 ul{
     list-style: none;
@@ -300,16 +308,15 @@ color: #f5f5f5;
         display: none;
         z-index: 1000;
         position: absolute;
-        padding: 20px;
+        padding: 30px;
         background: #f5f5f5;
-        border: 1px solid #a5bdcd;
-        right: 20px;
+        border: 1.5px solid #a5bdcd;
+        right: 50px;
         width: 30%;
-        opacity: .95;
-
+        opacity: .85;
     }
     nav li {
-        text-align: center;
+        text-align: left;
         width: 100%;
     }
 
